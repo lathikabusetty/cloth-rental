@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('login.jpg'); /* Replace 'login.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login h1 {
+    text-align: center;
+    color: #333;
+}
+
+.login h4 {
+    text-align: center;
+    color: #666;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
+    margin-top: 10px;
+    color: #333;
+}
+
+.login input[type="email"], /* Changed 'gmail' to 'email' */
+.login input[type="password"] {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333; /* Change text color for email and password inputs */
+}
+
+.login input[type="submit"] {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.login p {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.login a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
